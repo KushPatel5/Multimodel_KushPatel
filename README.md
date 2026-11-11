@@ -1,6 +1,6 @@
 # Multimodal Movie Genre Classification Using MM-IMDb
 
-**University of Adelaide | Master of Data Science | Assignment 2.2**  
+**Adelaide University | Master of Data Science | Assignment 2.2**  
 **Student:** Kush Patel  
 **Student ID:** A3015439
 
