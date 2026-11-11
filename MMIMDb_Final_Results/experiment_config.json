@@ -1,0 +1,55 @@
+{
+  "seed": 42,
+  "split_method": "seeded random 60/10/30 (deviation from proposal)",
+  "train": 15567,
+  "validation": 2594,
+  "test": 7784,
+  "movies": 25945,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Animation",
+    "Biography",
+    "Comedy",
+    "Crime",
+    "Documentary",
+    "Drama",
+    "Family",
+    "Fantasy",
+    "Film-Noir",
+    "History",
+    "Horror",
+    "Music",
+    "Musical",
+    "Mystery",
+    "Romance",
+    "Sci-Fi",
+    "Short",
+    "Sport",
+    "Thriller",
+    "War",
+    "Western"
+  ],
+  "thresholds": {
+    "image": 0.39999999999999997,
+    "text": 0.49999999999999994,
+    "early": 0.49999999999999994,
+    "gated": 0.49999999999999994,
+    "attention": 0.6499999999999999,
+    "late": 0.49999999999999994
+  },
+  "late_image_weight": 0.4,
+  "feature_encoders": [
+    "EfficientNet-B0",
+    "bert-base-uncased"
+  ],
+  "bert_max_length": 160,
+  "feature_stage_seconds_including_cache": 627.83,
+  "poster_audit": {
+    "ok": 25935,
+    "oversized_warning": 24
+  },
+  "bert_truncation_percent": 46.406,
+  "best_model": "late",
+  "official_split_used": false
+}
